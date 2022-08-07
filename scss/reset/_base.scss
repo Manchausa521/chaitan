@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    background-color: $text-color;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.green {
+    color: $primary-color  !important;
+}
+
+.white {
+    color: $text-color  !important;
+}
+
+.desc {
+    color: #ccc !important;
+}
+
+.home_bg-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 45px;
+    color: $text-color;
+    border-radius: 32px;
+
+}
+
+
+.home {
+    .home_main-about {
+        @include font($font-title, 1.6rem, 300, 1.6rem);
+        font-style: italic;
+        color: $primary-color;
+        margin-top: 30px;
+    }
+
+    .home_main-title {
+        @include font($font-title, 5rem, 700, none);
+        color: $title-color;
+        margin: 20px 0 35px;
+    }
+
+    .home_main-sub {
+        @include font($font, 2rem, 200, 1.4);
+        color: $desc-color;
+    }
+}

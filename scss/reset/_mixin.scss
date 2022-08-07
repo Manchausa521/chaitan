@@ -1,0 +1,16 @@
+@mixin transition ($name, $animation, $time) {
+    transition: $name $animation $time;
+
+}
+
+@mixin hover($bg, $color) {
+    background-color: $bg;
+    color: $color;
+}
+
+@mixin font($family, $size, $weight , $lineHeight) {
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $lineHeight;
+}

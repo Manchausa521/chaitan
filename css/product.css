@@ -1,0 +1,608 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.green {
+  color: #88b44e !important;
+}
+
+.white {
+  color: #fff !important;
+}
+
+.desc {
+  color: #ccc !important;
+}
+
+.home_bg-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 45px;
+  color: #fff;
+  border-radius: 32px;
+}
+
+.home .home_main-about {
+  font-family: "Playfair Display", serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  font-style: italic;
+  color: #88b44e;
+  margin-top: 30px;
+}
+.home .home_main-title {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: none;
+  color: #252c30;
+  margin: 20px 0 35px;
+}
+.home .home_main-sub {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.4;
+  color: #6f7376;
+}
+
+main .bg_top {
+  background-image: url("../image/tea/tea.jpg");
+  height: 450px;
+}
+main .bg_top .bg_top-content {
+  background-color: rgba(0, 0, 0, 0.35);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .bg_top .bg_top-content .bg_top-title {
+  font-family: "Playfair Display", serif;
+  font-size: 7.2rem;
+  font-weight: 700;
+  line-height: 7.2rem;
+  color: #fff;
+}
+main .bg_top .bg_top-content .bg_top-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+main .bg_top .bg_top-content .bg_top-info .bg_top-link {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #88b44e;
+}
+main .bg_top .bg_top-content .bg_top-info .bg_top-chevron {
+  color: #88b44e;
+  font-size: 1.8rem;
+  transform: rotate(-90deg);
+  margin-left: 30px;
+  margin-top: 4px;
+}
+main .bg_top .bg_top-content .bg_top-info .bg_top-sub {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #fff;
+  padding-left: 30px;
+  margin: 0;
+}
+
+main .contact .contact_main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+main .contact .contact_main .contact_main-title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+main .contact .contact_main .contact_main-title .contact_main-name {
+  font-family: "Playfair Display", serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  color: #252c30;
+  margin: 4px 0;
+}
+main .contact .contact_main .contact_main-img {
+  width: 100%;
+  height: 600px;
+}
+main .contact .contact_main .contact_main-content .contact_central {
+  background-image: url("../image/index/leaf.png");
+  padding: 90px 30px 0;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_sub {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #252c30;
+  margin: 45px 0;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_icon-list .contact_icon-item {
+  padding-left: 0;
+  list-style: none;
+  margin: 15px 0;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_icon-list .contact_icon-item .contact_icon-link {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #88b44e;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_icon-list .contact_icon-item .contact_icon-link span {
+  padding-left: 15px;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_icon-list .contact_icon-item .contact_icon-link:hover {
+  opacity: 0.8;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_list {
+  display: flex;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_list .contact_item {
+  list-style: none;
+  margin-left: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: none;
+  background-color: #88b44e;
+  padding: 16px;
+  border-radius: 50%;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_list .contact_item .contact_link {
+  text-decoration: none;
+  color: #fff;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_list .contact_item:hover {
+  background-color: #252c30;
+  color: #fff;
+}
+main .contact .contact_main .contact_main-content .contact_open {
+  background-image: url("../image/index/leaf.png");
+  padding: 90px 30px 0;
+}
+main .contact .contact_main .contact_main-content .contact_open .contact_title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #252c30;
+  margin-bottom: 45px;
+}
+main .contact .contact_main .contact_main-content .contact_open .contact_open-sub {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_info-table {
+  background-color: rgb(245, 248, 242);
+  padding: 90px 30px 0;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-label {
+  margin-bottom: 6px;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-input {
+  height: 64px;
+  width: 280px;
+  border-radius: 36px;
+  border: 1px solid #88b44e;
+  outline: none;
+  padding: 0 30px;
+  background-image: url("../image/index/customers-bg.png");
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-input::-moz-placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-input:-ms-input-placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-input::placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-mes {
+  height: 145px;
+  width: 280px;
+  border-radius: 20px;
+  border: 1px solid #88b44e;
+  outline: none;
+  padding: 30px;
+  background-image: url("../image/index/customers-bg.png");
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-submit {
+  margin: 45px 0;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #88b44e;
+  color: #fff;
+  text-transform: uppercase;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-submit:hover {
+  background-color: #252c30;
+  cursor: pointer;
+}
+
+main .products .products_main {
+  padding: 0 40px;
+  margin: 0 auto;
+}
+main .products .products_main .products_main-left {
+  padding: 60px 40px;
+  width: 385px;
+  margin: 0 0 0 0;
+  background-color: rgb(245, 248, 242);
+  border-top: 5px solid #88b44e;
+}
+main .products .products_main .products_main-left .products_left-content {
+  margin-bottom: 60px;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-name h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0 10px;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-name .line {
+  width: 30px;
+  height: 0.5px;
+  background-color: #88b44e;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-search {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #88b44e;
+  display: flex;
+  border-radius: 32px;
+  overflow: hidden;
+  background-color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: none;
+  line-height: none;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-search input {
+  background-image: url("../image/index/customers-bg.png");
+  width: calc(100% - 50px);
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 30px;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-search button {
+  width: 50px;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+main .products .products_main .products_main-left .products_left-content .products_categories-list .products_categories-item {
+  margin: 8px 0;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #88b44e;
+}
+main .products .products_main .products_main-left .products_left-content .products_categories-list .products_categories-item .products_categories-link {
+  text-decoration: none;
+  color: #252c30;
+}
+main .products .products_main .products_main-left .products_left-content .products_categories-list .products_categories-item .products_categories-link:hover {
+  background-color: none;
+  color: #88b44e;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-filter {
+  width: 100%;
+  max-width: 312px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #252c30;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-filter .values div {
+  display: inline-block;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-filter small {
+  display: block;
+  margin: 8px 0;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-filter small div {
+  display: inline-block;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-filter .progress {
+  width: 100%;
+  -webkit-appearance: none;
+  height: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  outline: none;
+  opacity: 0.7;
+  border-radius: 20px;
+}
+main .products .products_main .products_main-left .products_left-content .products_left-filter .progress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 10px;
+  background-color: #88b44e;
+  cursor: pointer;
+}
+main .products .products_main .products_main-left .products_left-content .products_tags-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .products .products_main .products_main-left .products_left-content .products_tags-list .products_tags-item {
+  list-style: none;
+  margin: 6px 8px;
+}
+main .products .products_main .products_main-left .products_left-content .products_tags-list .products_tags-item .products_tags-link {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #88b44e;
+}
+main .products .products_main .products_main-left .products_left-content .products_tags-list .products_tags-item .products_tags-link span {
+  color: #252c30;
+}
+main .products .products_main .products_main-left .products_left-content .products_tags-list .products_tags-item .products_tags-link span:hover {
+  background-color: none;
+  color: #88b44e;
+}
+main .products .products_main .products_main-right {
+  padding: 0;
+  margin-top: 90px;
+}
+main .products .products_main .products_main-right .products_right-top {
+  margin: 0 0 40px 32px;
+  height: 75px;
+  border: 1px solid none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 75px;
+  overflow: hidden;
+  padding: 40px;
+  background-color: rgba(136, 180, 78, 0.1);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+main .products .products_main .products_main-right .products_right-top .top-heading {
+  color: #252c30;
+}
+main .products .products_main .products_main-right .products_right-top select {
+  background-color: transparent;
+  border: none;
+}
+main .products .products_main .products_main-right .products_right-top select #classify option {
+  font-size: 1.2rem;
+}
+main .products .products_main .products_main-right .products_right-top select:hover {
+  border-color: #88b44e;
+}
+main .products .products_main .products_main-right .products_right-top select:focus {
+  box-shadow: 0 0 1px 1px #88b44e;
+  color: #252c30;
+  outline: none;
+}
+main .products .products_main .products_main-right .products_right-item {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  margin: 0 0 40px 46px;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+main .products .products_main .products_main-right .products_right-item .products_right-link {
+  text-decoration: none;
+  width: 100%;
+}
+main .products .products_main .products_main-right .products_right-item .products_right-link .products_right-hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .products .products_main .products_main-right .products_right-item .products_right-link .products_right-hover .products_right-img img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .products .products_main .products_main-right .products_right-item .products_right-link .products_right-hover .item-star {
+  font-family: none;
+  font-size: 1.4rem;
+  font-weight: none;
+  line-height: none;
+}
+main .products .products_main .products_main-right .products_right-item .products_right-link .products_right-hover .item-star i {
+  color: rgb(255, 213, 0);
+}
+main .products .products_main .products_main-right .products_right-item .products_right-link .products_right-hover .item-title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #252c30;
+  margin: 15px 0 20px;
+}
+main .products .products_main .products_main-right .products_right-item .item-sub {
+  color: #252c30;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: center;
+  padding: 0 30px;
+}
+main .products .products_main .products_main-right .products_right-item .item-price {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+  color: #88b44e;
+  margin: 30px 0;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  border-bottom: 5px solid #fff;
+  transition: all ease-in-out 0.1s;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more .products_btn-hover {
+  visibility: hidden;
+  opacity: 0;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more .products_btn-hover a {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more .products_btn-hover a .products-view {
+  background-color: #fff;
+  color: #252c30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more .products_btn-hover a .products-view i {
+  font-size: 1.2rem;
+  padding-left: 8px;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more .products_btn-hover a .products-view:hover {
+  background-color: #252c30;
+  color: #fff;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more .products_btn-hover a .products-add {
+  background-color: #88b44e;
+  color: #fff;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more .products_btn-hover a .products-add p {
+  margin-bottom: 0;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more .products_btn-hover a .products-add i {
+  color: #252c30;
+  font-size: 1.4rem;
+  padding-left: 8px;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more .products_btn-hover a .products-add:hover {
+  background-color: #252c30;
+  color: #fff;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more .products_btn-hover a .products-add:hover i {
+  color: #88b44e;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more:hover {
+  background-color: rgba(136, 180, 78, 0.1);
+  border-bottom: 5px solid #88b44e;
+}
+main .products .products_main .products_main-right .products_right-item .products_btn-more:hover .products_btn-hover {
+  visibility: visible;
+  opacity: 1;
+}/*# sourceMappingURL=product.css.map */

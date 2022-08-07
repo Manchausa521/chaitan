@@ -1,0 +1,521 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.green {
+  color: #88b44e !important;
+}
+
+.white {
+  color: #fff !important;
+}
+
+.desc {
+  color: #ccc !important;
+}
+
+.home_bg-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 45px;
+  color: #fff;
+  border-radius: 32px;
+}
+
+.home .home_main-about {
+  font-family: "Playfair Display", serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  font-style: italic;
+  color: #88b44e;
+  margin-top: 30px;
+}
+.home .home_main-title {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: none;
+  color: #252c30;
+  margin: 20px 0 35px;
+}
+.home .home_main-sub {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.4;
+  color: #6f7376;
+}
+
+main .bg_top {
+  background-image: url("../image/tea/tea.jpg");
+  height: 450px;
+}
+main .bg_top .bg_top-content {
+  background-color: rgba(0, 0, 0, 0.35);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .bg_top .bg_top-content .bg_top-title {
+  font-family: "Playfair Display", serif;
+  font-size: 7.2rem;
+  font-weight: 700;
+  line-height: 7.2rem;
+  color: #fff;
+}
+main .bg_top .bg_top-content .bg_top-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+main .bg_top .bg_top-content .bg_top-info .bg_top-link {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #88b44e;
+}
+main .bg_top .bg_top-content .bg_top-info .bg_top-chevron {
+  color: #88b44e;
+  font-size: 1.8rem;
+  transform: rotate(-90deg);
+  margin-left: 30px;
+  margin-top: 4px;
+}
+main .bg_top .bg_top-content .bg_top-info .bg_top-sub {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #fff;
+  padding-left: 30px;
+  margin: 0;
+}
+
+main .contact .contact_main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+main .contact .contact_main .contact_main-title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+main .contact .contact_main .contact_main-title .contact_main-name {
+  font-family: "Playfair Display", serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  color: #252c30;
+  margin: 4px 0;
+}
+main .contact .contact_main .contact_main-img {
+  width: 100%;
+  height: 600px;
+}
+main .contact .contact_main .contact_main-content .contact_central {
+  background-image: url("../image/index/leaf.png");
+  padding: 90px 30px 0;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_sub {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #252c30;
+  margin: 45px 0;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_icon-list .contact_icon-item {
+  padding-left: 0;
+  list-style: none;
+  margin: 15px 0;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_icon-list .contact_icon-item .contact_icon-link {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #88b44e;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_icon-list .contact_icon-item .contact_icon-link span {
+  padding-left: 15px;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_icon-list .contact_icon-item .contact_icon-link:hover {
+  opacity: 0.8;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_list {
+  display: flex;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_list .contact_item {
+  list-style: none;
+  margin-left: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: none;
+  background-color: #88b44e;
+  padding: 16px;
+  border-radius: 50%;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_list .contact_item .contact_link {
+  text-decoration: none;
+  color: #fff;
+}
+main .contact .contact_main .contact_main-content .contact_central .contact_list .contact_item:hover {
+  background-color: #252c30;
+  color: #fff;
+}
+main .contact .contact_main .contact_main-content .contact_open {
+  background-image: url("../image/index/leaf.png");
+  padding: 90px 30px 0;
+}
+main .contact .contact_main .contact_main-content .contact_open .contact_title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #252c30;
+  margin-bottom: 45px;
+}
+main .contact .contact_main .contact_main-content .contact_open .contact_open-sub {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_info-table {
+  background-color: rgb(245, 248, 242);
+  padding: 90px 30px 0;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-label {
+  margin-bottom: 6px;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-input {
+  height: 64px;
+  width: 280px;
+  border-radius: 36px;
+  border: 1px solid #88b44e;
+  outline: none;
+  padding: 0 30px;
+  background-image: url("../image/index/customers-bg.png");
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-input::-moz-placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-input:-ms-input-placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-input::placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  color: #252c30;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-content .contact_info-mes {
+  height: 145px;
+  width: 280px;
+  border-radius: 20px;
+  border: 1px solid #88b44e;
+  outline: none;
+  padding: 30px;
+  background-image: url("../image/index/customers-bg.png");
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-submit {
+  margin: 45px 0;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #88b44e;
+  color: #fff;
+  text-transform: uppercase;
+}
+main .contact .contact_main .contact_main-content .contact_info-table .contact_info-form .contact_info-submit:hover {
+  background-color: #252c30;
+  cursor: pointer;
+}
+
+main .about .about-us .about_main {
+  padding: 60px 30px;
+  background-image: url("../image/index/leaf.png");
+}
+main .about .about-us .about_main .about_main-content {
+  margin-top: 60px;
+  padding: 0 30px;
+}
+main .about .about-us .about_main .about_main-content .about_main-title {
+  font-family: "Playfair Display", serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: none;
+  color: #252c30;
+}
+main .about .about-us .about_main .about_main-content .about_main-name {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  font-style: italic;
+  color: #6f7376;
+  margin: 12px 0;
+}
+main .about .about-us .about_main .about_main-content .about_main-sub {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #252c30;
+  text-align: justify;
+}
+main .about .about-us .about_main .about_main-img {
+  padding: 0;
+}
+main .about .about-us .about_main .about_main-img img {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+
+main .about_tes .bg_top {
+  background-image: url("../image/about/tes.png");
+  height: 450px;
+}
+main .about_tes .about_tes-content {
+  margin: 120px 30px;
+}
+main .about_tes .about_tes-content .about_tes-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 340px;
+  width: 566px;
+  margin: 30px auto;
+  padding: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-image: url("../image/index/leaf.png");
+}
+main .about_tes .about_tes-content .about_tes-item .about_tes-img {
+  position: relative;
+}
+main .about_tes .about_tes-content .about_tes-item .about_tes-img img {
+  position: absolute;
+  top: -36px;
+  left: -32px;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+main .about_tes .about_tes-content .about_tes-item .about_tes-name {
+  margin-top: 40px;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: none;
+  color: #88b44e;
+}
+main .about_tes .about_tes-content .about_tes-item .about_tes-job {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  font-style: italic;
+  color: #252c30;
+  margin: 10px 0 30px;
+}
+main .about_tes .about_tes-content .about_tes-item .about_tes-sub {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #6f7376;
+  text-align: center;
+  padding: 0 30px;
+}
+main .about_tes .about_tes-content .about_tes-item .quote {
+  font-size: 3.2rem;
+  color: #88b44e;
+  text-align: center;
+}
+
+main .about_team .bg_top {
+  background-image: url("../image/about/team.jpg");
+  background-size: cover;
+  background-position: -200px;
+  height: 450px;
+}
+main .about_team .about_team-list {
+  margin: 90px 0;
+  padding: 0 30px;
+}
+main .about_team .about_team-list .about_team-item {
+  list-style: none;
+  text-align: center;
+  margin: 30px 0;
+  padding: 0;
+}
+main .about_team .about_team-list .about_team-item .about_team-info {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .about_team .about_team-list .about_team-item .about_team-info .about_team-img {
+  width: 230px;
+  height: 230px;
+  border: 5px solid #ccc;
+  border-radius: 50%;
+}
+main .about_team .about_team-list .about_team-item .about_team-info .about_team-img img {
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
+  margin: 14px;
+}
+main .about_team .about_team-list .about_team-item .about_team-info .about_team-img:hover {
+  border: 5px solid #88b44e;
+}
+main .about_team .about_team-list .about_team-item .about_team-info .about_team-name {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: none;
+  color: #88b44e;
+  margin-top: 30px;
+}
+main .about_team .about_team-list .about_team-item .about_team-job {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  font-style: italic;
+  color: #252c30;
+  margin: 10px 0 20px;
+}
+main .about_team .about_team-list .about_team-item .about_team-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+main .about_team .about_team-list .about_team-item .about_team-icons .about_team-icon {
+  list-style: none;
+  padding-left: 0;
+}
+main .about_team .about_team-list .about_team-item .about_team-icons .about_team-icon .about_team-link {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #6f7376;
+  padding: 4px;
+}
+main .about_team .about_team-list .about_team-item .about_team-icons .about_team-icon .about_team-link:hover {
+  opacity: 0.8;
+}
+
+main .about_faq .bg_top {
+  background-image: url("../image/about/faq.png");
+  background-position: -200px;
+  height: 450px;
+}
+main .about_faq .about_faq-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+main .about_faq .about_faq-main .about_faq-content {
+  margin: 30px 0;
+  padding: 30px;
+  width: 1000px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-image: url("../image/index/customers-bg.png");
+}
+main .about_faq .about_faq-main .about_faq-content .about_faq-title {
+  font-family: "Playfair Display", serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #252c30;
+  margin: 20px 0;
+}
+main .about_faq .about_faq-main .about_faq-content .about_faq-sub {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #252c30;
+}
+main .about_faq .about_faq-main .about_faq-content .about_faq-sub li {
+  list-style: none;
+}/*# sourceMappingURL=about.css.map */

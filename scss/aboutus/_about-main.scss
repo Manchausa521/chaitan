@@ -1,0 +1,49 @@
+main {
+    .about {
+
+        .about-us {
+
+            .about_main {
+                padding: 60px 30px;
+                background-image: url('../image/index/leaf.png');
+
+                .about_main-content {
+                    margin-top: 60px;
+                    padding: 0 30px;
+
+                    .about_main-title {
+                        @include font($font-title, 3.2rem, 700, none);
+                        color: $title-color;
+                    }
+
+                    .about_main-name {
+                        @include font($font, 2rem, 400, 2rem);
+                        font-style: italic;
+                        color: $desc-color;
+                        margin: 12px 0;
+
+                    }
+
+                    .about_main-sub {
+                        @include font($font, 2rem, 300, 1.2);
+                        color: $title-color;
+                        text-align: justify;
+                    }
+                }
+
+                .about_main-img {
+                    padding: 0;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        padding: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}
